@@ -1,0 +1,27 @@
+@import "bootstrap";
+
+/* header */
+
+header {
+  float: left;
+  margin-right: 10px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 0px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  padding-top: 25px;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: left;
+}
