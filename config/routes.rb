@@ -1,13 +1,12 @@
 AreaWest::Application.routes.draw do
-  get "static_pages/home"
 
-  get "static_pages/about"
+  root to: "static_pages#home"
 
-  get "static_pages/key_personnel"
+  match '/about', to: "static_pages#about"
+  match '/key_personnel', to: "static_pages#key_personnel"
+  match '/services', to: "static_pages#services"
+  match '/projects', to: "static_pages#projects"
 
-  get "static_pages/services"
-
-  get "static_pages/projects"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
